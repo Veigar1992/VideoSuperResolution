@@ -44,12 +44,9 @@ network_G:
 
 #### path
 path:
-  # pretrain_model_G: ../experiments/004_EDVRwoTSA_scratch_lr4e-4_600k_HDR_LrCAR4S/models/30000_G.pth
-  # strict_load: false
-  pretrain_model_G: ../experiments/002_EDVRwoTSA_scratch_lr4e-4_600k_HDR_L/models/140000_G.pth
+  pretrain_model_G: ../experiments/pretrained_models/136000_G.pth
   strict_load: false
   resume_state: ~
-#../experiments/003_EDVRwoTSA_scratch_lr4e-4_600k_HDR_LrCAR4S/models/412000_G.pth:
 #### training settings: learning rate scheme, loss
 train:
   lr_G: !!float 4e-4

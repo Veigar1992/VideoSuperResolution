@@ -38,7 +38,7 @@ def main(argv):
         else:
             raise ValueError('Vid4 does not support stage 2.')
     elif data_mode == 'HDR':
-        model_path = '../experiments/003_EDVRwTSA_scratch_lr4e-4_600k_HDR_L/models/136000_G.pth'
+        model_path = '../experiments/pretrained_models/136000_G.pth'
     else:
         raise NotImplementedError
 
