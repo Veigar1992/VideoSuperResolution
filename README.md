@@ -5,3 +5,4 @@ AI+4K HDR competition from Kesci Community
 
 * 136000 https://share.weiyun.com/5ouNypV
 * 280000 https://share.weiyun.com/5qX9n5X
+* meta_info.pkl https://share.weiyun.com/5afpxKj
