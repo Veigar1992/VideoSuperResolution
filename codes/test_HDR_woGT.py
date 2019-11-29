@@ -38,7 +38,7 @@ def main(argv):
         else:
             raise ValueError('Vid4 does not support stage 2.')
     elif data_mode == 'HDR':
-        model_path = '../experiments/003_EDVRwTSA_scratch_lr4e-4_600k_HDR_L/models/62000_G.pth'
+        model_path = '../experiments/003_EDVRwTSA_scratch_lr4e-4_600k_HDR_L/models/136000_G.pth'
     else:
         raise NotImplementedError
 
@@ -85,7 +85,7 @@ def main(argv):
         padding = 'replicate'
     save_imgs = True
 
-    save_folder = '../datasets/HDR/test/test_128_wTSA/{}'.format(data_mode)
+    save_folder = '../results/HDR/test/test_128_wTSA/{}'.format(data_mode)
     util.mkdirs(save_folder)
     util.setup_logger('base', save_folder, 'test', level=logging.INFO, screen=True, tofile=True)
     logger = logging.getLogger('base')
